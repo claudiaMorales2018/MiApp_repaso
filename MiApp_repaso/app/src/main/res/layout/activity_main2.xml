@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historia de la suma"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="35sp"
+
+
+
+        />
+    <EditText
+        android:id="@+id/valor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:hint="Ingrese Un numero"
+
+
+        />
+    <EditText
+        android:id="@+id/valor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:hint="Ingrese otro numero"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btnsumar"
+        android:layout_width="171dp"
+        android:layout_height="35dp"
+        android:layout_margin="2sp"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:onClick="onClick"
+        android:text="Sumar"
+
+        />
+
+    <Button
+        android:id="@+id/btnrestar"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_margin="2sp"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:onClick="onClick"
+        android:text="restar"
+
+        />
+
+    <Button
+        android:id="@+id/btnmultiplicar"
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="2sp"
+        android:background="@color/teal_700"
+        android:onClick="onClick"
+        android:text="Multiplicar"
+
+        />
+
+    <Button
+        android:id="@+id/btndivir"
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="1sp"
+        android:background="@color/purple_500"
+        android:onClick="onClick"
+        android:text="Dividr"
+
+        />
+
+    <TextView
+        android:id="@+id/Resultados"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:text="resultado"
+        android:textColor="@color/teal_700"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/txthistoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:layout_margin="10sp"
+                android:text="@string/texto1"
+                android:textIsSelectable="true"
+
+
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

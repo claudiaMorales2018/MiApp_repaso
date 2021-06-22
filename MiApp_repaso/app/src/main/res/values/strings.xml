@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Repaso</string>
+
+    <string name="texto1">
+      El sistema de numeración se originó para facilitar el trabajo de los agrimensores que año tras año,
+        luego de las crecidas del río Nilo debían trazar nuevamente los límites de los terrenos.
+        Se utilizaban dibujos  para escribir y luego, se repetían estas marcas para formar el número deseado.
+        Cada número era una potencia de 10.
+        El signo más antiguo para indicar la resta lo encontramos en el famoso papiro de Rhind,
+        tal como lo escribían los egipcios (۸).
+
+
+
+    </string>
+
+</resources>

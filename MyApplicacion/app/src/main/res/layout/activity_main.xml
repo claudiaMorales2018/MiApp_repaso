@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_num1"
+        android:layout_width="143dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="Ingrese primer valor"
+        android:inputType="number"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <EditText
+        android:id="@+id/txt_num2"
+        android:layout_width="146dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Ingrese segundo valor"
+        android:inputType="number"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <ImageButton
+        android:id="@+id/sumar"
+        android:layout_width="86dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/aceptar"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <ImageButton
+        android:id="@+id/restar"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/aceptar"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageButton
+        android:id="@+id/multiplicar"
+        android:layout_width="84dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/aceptar"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageButton
+        android:id="@+id/dividir"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/aceptar"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="363dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="resultado"
+        app:layout_constraintTop_toBottomOf="@+id/restar"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

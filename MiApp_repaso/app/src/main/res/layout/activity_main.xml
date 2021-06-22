@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="45sp"
+        android:gravity="center"
+        android:text="Menu De repaso "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgcasa"
+        android:layout_width="227dp"
+        android:layout_height="146dp"
+        android:layout_below="@id/txtTitulo"
+
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/casa" />
+
+
+    <Button
+        android:id="@+id/btnUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgcasa"
+        android:layout_centerInParent="true"
+        android:text="Actividad 2"
+        android:layout_marginTop="45sp"
+        android:onClick="OnClick" />
+
+</RelativeLayout>
